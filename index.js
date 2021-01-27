@@ -10,7 +10,7 @@ class NationalityGuesser extends Plugin {
         powercord.api.commands.registerCommand({
             command: 'nationality',
             aliases: ['nat', 'ng'],
-            usage: "{c} <name>",
+            usage: '{c} <name>',
             executor: (args) => this.getNationality(args)
         });
     }
@@ -34,7 +34,7 @@ class NationalityGuesser extends Plugin {
         return {
             send: false,
             result: {
-                type: "rich",
+                type: 'rich',
                 title: capitalize(args[0]),
                 fields: body.country.map((country) => ({
                     name: country.country_id,
