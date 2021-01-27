@@ -1,0 +1,7 @@
+{
+  "name": "Nationality Guesser",
+  "description": "Guesses the nationality of someone based on their first name.",
+  "author": "Lav",
+  "version": "1.0.0",
+  "license": "MIT"
+}
